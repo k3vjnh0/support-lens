@@ -64,10 +64,15 @@ bun install
 ```
 
 3. Set up environment variables:
-Create a `.env` file in the root directory with your Supabase credentials:
+Copy the example environment file and fill in your Supabase credentials:
+```bash
+cp .env.example .env
+```
+Then edit `.env` with your actual values:
 ```env
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+VITE_SUPABASE_PROJECT_ID="your_project_id"
+VITE_SUPABASE_PUBLISHABLE_KEY="your_publishable_key"
+VITE_SUPABASE_URL="https://your-project.supabase.co"
 ```
 
 4. Start the development server:
