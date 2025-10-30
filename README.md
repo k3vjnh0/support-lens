@@ -52,8 +52,8 @@ This project is built with modern web technologies:
 
 1. Clone the repository:
 ```bash
-git clone <your-repository-url>
-cd role-lens-assist-main
+git clone https://github.com/k3vjnh0/support-lens.git
+cd support-lens
 ```
 
 2. Install dependencies:
@@ -87,7 +87,7 @@ The application will be available at `http://localhost:5173`
 ## Project Structure
 
 ```
-role-lens-assist-main/
+support-lens/
 ├── src/
 │   ├── components/          # React components
 │   │   ├── auth/           # Authentication components
